@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+ 
+.comment:nth-child(1) .comment-avatar:after{   
+    @apply mt-0;
+}
+.comment-options li span:nth-child(1) {    
+    @apply w-6 h-6 !important;
+
+}
+.comment-options li svg {    
+    @apply w-4 h-4 !important;
+
+}
